@@ -1,0 +1,140 @@
+body {
+  color: #40514E;
+  height: 0;
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  line-height: 2;
+  margin: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  margin-top: 0;
+  font-weight: normal;
+  font-size: 2.25rem;
+  font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+}
+
+hr {
+  margin-top: 10rem;
+  margin-bottom: 8rem;
+  width: 10%;
+  border: dotted #cccccc;
+  border-width: 10px 0 0 0;
+  height: 20px;
+}
+
+a {
+  color: #11999E;
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+}
+
+a:hover {
+  color: grey;
+  /*text-decoration: underline;*/
+}
+
+p {
+  line-height: 2;
+}
+
+/**********************************special class *********************************************/
+.uppercloud {
+  position: absolute;
+  top: 60px;
+  right: 21%;
+}
+
+.lowercloud {
+  position: absolute;
+  left: 21%;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+
+.top {
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  margin-bottom: 30px;
+}
+
+.bottom-container {
+  line-height: 3;
+  background-color: #66BFBF;
+  padding: 30px;
+}
+
+.inside-bottom {
+  word-spacing: 3em;
+}
+
+.btn {
+  background-color: #66BFBF;
+  border: none;
+  color: white;
+  border-radius: 28px;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 30px;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  -webkit-transition-duration: 0.4s;
+  /* Safari */
+  transition-duration: 0.4s;
+}
+
+.btn:hover {
+  box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+}
+
+.flaticon {
+  width: 12.5%;
+  margin: 100px 0;
+}
+
+.flaticon1 {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.flaticon2 {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.lastpara {
+  color: #EAF6F6
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto;
+  text-align: left;
+}
+
+.contactpara {
+  width: 30%;
+  margin: 30px auto;
+}
